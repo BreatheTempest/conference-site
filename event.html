@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Кращі практики HTML та CSS</title>
+		<link rel="stylesheet" href="styles.css" />
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<main>
+			<div class="hero-page">
+				<div class="overlay"></div>
+				<header class="header">
+					<div class="container">
+						<img class="logo" src="images/logo.svg" alt="" />
+						<nav class="navbar">
+							<ul class="nav-links">
+								<li><a href="#topics">Тематика</a></li>
+								<li><a href="#schedule">Розклад</a></li>
+								<li><a href="#speakers">Спікери</a></li>
+								<li><a href="#register">Реєстрація</a></li>
+								<li>
+									<div class="menu-btn"></div>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</header>
+				<div class="menu container">
+					<nav class="menu-navbar">
+						<ul class="menu-nav-links">
+							<li><a href="#">Тематика</a></li>
+							<li><a href="#">Розклад</a></li>
+							<li><a href="#">Спікери</a></li>
+							<li><a href="#">Реєстрація</a></li>
+						</ul>
+						<img src="images/folder.svg" alt="" />
+						<p class="menu-copyright">&copy; 2024 Кращі практики HTML та CSS</p>
+					</nav>
+				</div>
+
+				<div class="hero-container">
+					<div class="hero">
+						<div class="hero-text">
+							<h1>Кращі практики HTML та CSS</h1>
+							<p>Дізнайтеся про найновіші техніки у веброзробці та дизайні.</p>
+						</div>
+						<div class="hero-elements">
+							<a href="#register" class="btn">РЕЄСТРАЦІЯ</a>
+							<div class="hero-date">
+								<div class="date">29.02.25</div>
+								<div class="city">Київ</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container">
+				<section id="topics" class="topics">
+					<h2>Що ви дізнаєтеся</h2>
+					<div class="topics-container">
+						<div class="topic-card">
+							<h3>Адаптивний дизайн</h3>
+							<p>
+								Дізнайтеся, як створювати вебсторінки, що ідеально працюють на
+								будь-якому пристрої.
+							</p>
+						</div>
+						<div class="topic-card">
+							<h3>CSS Анімації</h3>
+							<p>Опануйте інструменти для створення динамічних вебсторінок.</p>
+						</div>
+						<div class="topic-card">
+							<h3>Доступність</h3>
+							<p>
+								Зробіть ваші сайти зручними для використання людьми з обмеженими
+								можливостями.
+							</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+			<div class="container">
+				<section id="schedule" class="schedule">
+					<img src="images/folder.svg" alt="" />
+					<h2>РОЗКЛАД ПОДІЇ</h2>
+					<ul>
+						<li>
+							<span class="time">10:00</span>
+							<span class="description"
+								>Відкриття заходу: Привітальне слово організаторів.</span
+							>
+						</li>
+						<li>
+							<span class="time">10:30</span>
+							<span class="description">Лекція: "Основи сучасного HTML".</span>
+						</li>
+						<li>
+							<span class="time">11:30</span>
+							<span class="description"
+								>Практична сесія: "Flexbox та CSS Grid".</span
+							>
+						</li>
+						<li>
+							<span class="time">13:00</span>
+							<span class="description">Обідня перерва.</span>
+						</li>
+						<li>
+							<span class="time">14:00</span>
+							<span class="description"
+								>Лекція: "Доступність у веб-дизайні".</span
+							>
+						</li>
+						<li>
+							<span class="time">15:30</span>
+							<span class="description"
+								>Воркшоп: "Динамічні анімації за допомогою CSS".</span
+							>
+						</li>
+						<li>
+							<span class="time">17:00</span>
+							<span class="description"
+								>Закриття: Підбиття підсумків і вручення сертифікатів.</span
+							>
+						</li>
+					</ul>
+				</section>
+			</div>
+
+			<div class="container">
+				<section id="speakers" class="speakers">
+					<h2>Спікери</h2>
+					<div class="speakers-container">
+						<div class="card">
+							<img
+								src="images/speaker1.jpg"
+								alt="Сергій Флексенко"
+								id="speaker1"
+							/>
+							<h3>Сергій Флексенко</h3>
+							<p>Експерт зі створення адаптивних макетів</p>
+						</div>
+						<div class="card">
+							<img src="images/speaker2.jpg" alt="Марія Градієнтова" />
+							<h3>Марія Градієнтова</h3>
+							<p>Спеціалістка з дизайну та кольорових схем</p>
+						</div>
+						<div class="card">
+							<img
+								src="images/speaker3.jpg"
+								alt="Василь Селекторенко"
+								id="speaker3"
+							/>
+							<h3>Василь Селекторенко</h3>
+							<p>Майстер CSS-селекторів і оптимізації стилів</p>
+						</div>
+						<div class="card">
+							<img src="images/speaker4.jpg" alt="Ольга Респонсивська" />
+							<h3>Ольга Респонсивська</h3>
+							<p>Експертка з адаптивного веб-дизайну</p>
+						</div>
+					</div>
+				</section>
+			</div>
+			<div class="container">
+				<section id="register" class="register">
+					<h2>Реєстрація</h2>
+					<div class="register-content">
+						<form action="" class="form">
+							<input type="text" placeholder="Ім’я" />
+							<input type="text" placeholder="Номер телефону" />
+							<input type="text" placeholder="E-mail" />
+							<button type="button">ПРИЄДНАТИСЯ</button>
+						</form>
+						<div class="additional">
+							<div class="dialog">
+								<img src="images/dialog.svg" alt="" />
+								<p>
+									Участь безкоштовна, але кількість місць обмежена. <br /><br />
+									Заповніть форму, щоб забронювати місце.
+								</p>
+							</div>
+							<div class="fluff">
+								<p>final.jpg</p>
+								<p>final1.jpg</p>
+								<p>final1ok.jpg</p>
+								<p>final1okokok.jpg</p>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
+
+		<div class="container">
+			<footer class="footer">
+				<div class="map">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1796.7203120251745!2d30.518711111776238!3d50.442102145097294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ceff6efe6ab5%3A0xe7155d2949d208eb!2sPinchuk%20Art%20Centre!5e0!3m2!1sen!2sua!4v1733914660292!5m2!1sen!2sua"
+						height="260"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+					<img src="images/coursor.svg" alt="" />
+					<p>Знайти нас на мапі</p>
+				</div>
+				<div class="social-element">
+					<div class="dialog-contacts">
+						<img src="images/contacts.svg" alt="" />
+						<p>
+							Контактна <br />
+							інформація
+						</p>
+					</div>
+					<ul class="social-links">
+						<li><a href="#">Facebook</a></li>
+						<li><a href="#">Instagram</a></li>
+						<li><a href="#">+38 (044) 123-45-67</a></li>
+						<li><a href="#">info@htmlcss-event.ua</a></li>
+					</ul>
+				</div>
+				<p class="copyright">&copy; 2024 Кращі практики HTML та CSS</p>
+			</footer>
+		</div>
+	</body>
+</html>
